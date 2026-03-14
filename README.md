@@ -10,14 +10,24 @@ SGGHRL — библиотека для иерархического обучен
 
 ## Установка
 
+Библиотеку можно установить напрямую из репозитория GitHub:
+
+**Способ 1: Установка через pip (рекомендуется)**
+```bash
+pip install git+https://github.com/Bobby-Shmurda31-ML/SGGHRL.git
+```
+
+**Способ 2: Установка без Git (через архив)**
+Если у вас не установлен Git, вы можете установить библиотеку напрямую из архива:
+```bash
+pip install https://github.com/Bobby-Shmurda31-ML/SGGHRL/archive/refs/heads/main.zip
+```
+
+**Для разработки:**
+Если вы хотите редактировать исходный код библиотеки:
 ```bash
 git clone https://github.com/Bobby-Shmurda31-ML/SGGHRL.git
 cd SGGHRL
-pip install -e .
-```
-
-Для разработки:
-```bash
 pip install -e ".[dev]"
 ```
 
