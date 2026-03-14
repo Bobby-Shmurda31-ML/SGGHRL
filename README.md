@@ -11,7 +11,7 @@ SGGHRL — библиотека для иерархического обучен
 ## Установка
 
 ```bash
-git clone https://github.com/your_name/SGGHRL.git
+git clone https://github.com/Bobby-Shmurda31-ML/SGGHRL.git
 cd SGGHRL
 pip install -e .
 ```
